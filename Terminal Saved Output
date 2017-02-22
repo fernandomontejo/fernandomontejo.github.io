@@ -1,0 +1,93 @@
+Last login: Sun Feb 12 15:32:04 on ttys001
+dhcp-18-111-25-71:~ montejo$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+dhcp-18-111-25-71:~ montejo$ pwd
+/Users/Nando
+dhcp-18-111-25-71:~ montejo$ cd fernandomontejo.github.io
+-bash: cd: fernandomontejo.github.io: No such file or directory
+dhcp-18-111-25-71:~ montejo$ cd documents
+dhcp-18-111-25-71:documents montejo$ cd github
+dhcp-18-111-25-71:github montejo$ cd fernandomontejo.github.io
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git add .
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ sit status
+-bash: sit: command not found
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   README.md
+	new file:   index.html
+
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git commit –m “added hello-world.html and updated readme”
+error: pathspec '–m' did not match any file(s) known to git.
+error: pathspec '“added' did not match any file(s) known to git.
+error: pathspec 'hello-world.html' did not match any file(s) known to git.
+error: pathspec 'and' did not match any file(s) known to git.
+error: pathspec 'updated' did not match any file(s) known to git.
+error: pathspec 'readme”' did not match any file(s) known to git.
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git reset HEAD README.md
+Unstaged changes after reset:
+M	README.md
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git reset HEAD index.html
+Unstaged changes after reset:
+M	README.md
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git add README.md
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git add index.html
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git commit –m “added hello-world.html and updated readme”
+error: pathspec '–m' did not match any file(s) known to git.
+error: pathspec '“added' did not match any file(s) known to git.
+error: pathspec 'hello-world.html' did not match any file(s) known to git.
+error: pathspec 'and' did not match any file(s) known to git.
+error: pathspec 'updated' did not match any file(s) known to git.
+error: pathspec 'readme”' did not match any file(s) known to git.
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ added hello-world.html and updated readme
+-bash: added: command not found
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git commit –m “added hello-world.html and updated readme”
+error: pathspec '–m' did not match any file(s) known to git.
+error: pathspec '“added' did not match any file(s) known to git.
+error: pathspec 'hello-world.html' did not match any file(s) known to git.
+error: pathspec 'and' did not match any file(s) known to git.
+error: pathspec 'updated' did not match any file(s) known to git.
+error: pathspec 'readme”' did not match any file(s) known to git.
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ pwd
+/Users/Nando/documents/github/fernandomontejo.github.io
+dhcp-18-111-25-71:fernandomontejo.github.io montejo$ git commit 
+
+added hello-world.html and updated readme
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: fernandomontejo <montejo@dhcp-18-111-25-71.dyn.mit.edu>
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#       modified:   README.md
+#       new file:   index.html
+#
+~                                                             
+~                                                             
+~                                                             
+~                                                             
+~                                                             
+~                                                             
+~                                                             
+-- INSERT --
